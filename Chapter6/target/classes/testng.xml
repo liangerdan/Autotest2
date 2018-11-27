@@ -13,12 +13,11 @@
                    <include name="test3"/>
                    <include name="logDemo"/>
                </methods>
-
            </class>
-
         </classes>
     </test>
         <listeners>
             <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+            <listener class-name="com.tester.demo.ExtentTestNGIReporterListener"/>
         </listeners>
 </suite>
