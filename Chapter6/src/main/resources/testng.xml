@@ -18,12 +18,13 @@
 
         </classes>
 
+    </test>
         <listeners>
             <listener class-name="com.vimase"/>
             <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgForMatter"/>
         </listeners>
 
 
-    </test>
+
 
 </suite>
