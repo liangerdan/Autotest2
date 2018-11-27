@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="wo">
+<suite name="这是我自己的接口测试套件">
 
-    <test name="de">
+    <test name="这是测试模块">
 
         <classes>
            <class name="com.tester.demo.testMethodDemo">
@@ -17,14 +17,19 @@
            </class>
 
         </classes>
+<<<<<<< HEAD
 
+=======
+>>>>>>> aaa1c2c84bf453a5dfe3efba575c9fd0cedd4b57
     </test>
         <listeners>
-            <listener class-name="com.vimase"/>
-            <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgForMatter"/>
+            <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
         </listeners>
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> aaa1c2c84bf453a5dfe3efba575c9fd0cedd4b57
 </suite>
