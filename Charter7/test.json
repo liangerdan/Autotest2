@@ -1,0 +1,15 @@
+[
+  {
+    "description":"模拟一个post请求",
+    "request":{
+      "uri":"/postdemoO",
+      "method":"post"
+    },
+    "response":{
+      "text":"这是一个基于mock框架的post请求",
+      "headers":{
+        "Content-Type":"application/json;charset=UTF-8"
+      }
+    }
+  }
+]

@@ -1,17 +1,38 @@
 [
   {
-    "description":"模拟一个post请求",
-    "request":{
-      "uri":"/postdemo",
-      "method":"post"
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
     },
-    "response":{
-      "text":"这是一个基于mock框架的post请求",
-      "headers":{
-        "Content-Type":"application/json;charset=gbk"
+    "response": {
+      "text": "这是一个基于mock框架的post请求",
+      "headers": {
+        "Content-Type": "application/json;charset=gbk"
       }
     }
-  }
+  },
+
+
+
+
+    {
+      "description": "模拟代参的post请求",
+      "request":{
+        "uri":"/postdomo",
+        "method":"post",
+        "forms": {
+          "name": "huhansan",
+          "age": "18"
+        }
+      },
+      "response":{
+        "text": "我胡汉三带着参数回来了",
+        "headers":{
+          "Content-Type":"application/json;charset=gbk"
+        }
+      }
+    }
 ]
 
 //写完一个post请求如何解决乱码问题
@@ -21,3 +42,7 @@
 //如果是get请求
 //则可以下载Charset工具，就可以解决乱码
 //如果用jmeter 来使用get请求的话还没一找到解决办法
+
+
+
+
