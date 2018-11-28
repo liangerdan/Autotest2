@@ -1,0 +1,25 @@
+[
+  {
+    "description":"模拟没有参数的get接口",
+    "request":{
+      "uri":"/getDemo",
+     "method":"get"},
+    "response":{"text":"这是一个没有参数的get请求接口"},
+
+
+  {
+    "description": "模拟代参数的get请求",
+    "request": {
+     "uri":"/getDemo",
+      "method": "get",
+      "queries": {
+        "name": "huhansna",
+        "age": "18"}
+      },
+    "response":{"text":"我胡汉三又回来了"}
+    }
+
+
+
+
+]

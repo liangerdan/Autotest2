@@ -1,0 +1,23 @@
+[
+  {
+    "description":"模拟一个post请求",
+    "request":{
+      "uri":"/postdemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"这是一个基于mock框架的post请求",
+      "headers":{
+        "Content-Type":"application/json;charset=gbk"
+      }
+    }
+  }
+]
+
+//写完一个post请求如何解决乱码问题
+//idea中设置编码格式：setting-file encodings- global\prohect都选utf-8 ，底下选择无-ok
+//同时还需要在代码中写“Conten-Type”：“application/json;charset=gbk”
+
+//如果是get请求
+//则可以下载Charset工具，就可以解决乱码
+//如果用jmeter 来使用get请求的话还没一找到解决办法
