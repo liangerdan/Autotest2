@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 @Api(value = "v1",description = "这是我的第一个版本的demo")
 @RequestMapping(value = "v1")
-public class DemoMapper {
+public class Demo {
 
     //首先过去一个执行sql语句的对象
     @Autowired

@@ -4,7 +4,4 @@
     <option name="sourceMapPrefix" value="" />
     <option name="sourceMapEmbedSources" value="inlining" />
   </component>
-  <component name="KotlinCompilerSettings">
-    <option name="additionalArguments" value="-javaagent:lombok.jar" />
-  </component>
 </project>

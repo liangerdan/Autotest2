@@ -1,0 +1,21 @@
+server:
+  port: 9901
+logging:
+  path: logs
+  file: mylog.log
+
+spring:
+   application:
+          name: myTest
+   datasource:
+       driver-class-name: com.mysql.jdbc.Driver
+       url: jdbc:mysql://192.168.1.24:3306/test1210
+       username: admin
+       password: 123456
+
+mybatis:
+  type-aliases-package: com.course.model   #(用来做映射)
+  mapper-locations:
+       - mapper/*  #（用来映射mysql.xml文件）
+
+

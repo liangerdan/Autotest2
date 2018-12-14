@@ -1,0 +1,23 @@
+[
+  {
+    "description":"重定向到百度",
+    "request":{
+      "uri":"/redirect"
+    },
+      "redirectTo":"http://www.baidu.com"
+   },
+  {
+    "description":"重定向到指定网页",
+    "request":{
+      "uri":"/redirect/one"
+    },
+    "redirectTo":"/redirect/two"
+  },
+  {
+    "description":"被指定的网页",
+    "request":{"uri":"/redirect/two"},
+    "response":{
+      "text":"重定向成功"
+    }
+  }
+]

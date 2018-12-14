@@ -11,7 +11,7 @@ import javax.annotation.PreDestroy;
 
 @EnableScheduling
 @SpringBootApplication
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
 public class Application {
 
     private  static ConfigurableApplicationContext context;

@@ -1,0 +1,34 @@
+[
+  {
+    "description": "模拟get请求获取cookis值",
+
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+
+      "cookies": {
+        "login": "true"
+      },
+      "text": "成功获得cookis信息",
+      "headers": {
+        "Content-Type": "application/json;charset=gbk"
+      }
+
+    }
+  },
+  {
+    "description": "模拟需要带cookies的get请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "seccusse!!!!"
+    }
+  }
+]

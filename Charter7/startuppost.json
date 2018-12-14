@@ -13,26 +13,19 @@
     }
   },
 
-
-
-
-    {
-      "description": "模拟代参的post请求",
-      "request":{
-        "uri":"/postdomo",
-        "method":"post",
-        "forms": {
-          "name": "huhansan",
-          "age": "18"
-        }
-      },
-      "response":{
-        "text": "我胡汉三带着参数回来了",
-        "headers":{
-          "Content-Type":"application/json;charset=gbk"
-        }
+  {
+    "description": "模拟代参的post请求",
+    "request": {
+      "uri": "/postdomo",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "age": "18"
       }
+    },
+    "response":{"text":"我胡汉三带着参数回来啦"
     }
+  }
 ]
 
 //写完一个post请求如何解决乱码问题
