@@ -9,9 +9,9 @@ spring:
           name: myTest
    datasource:
        driver-class-name: com.mysql.jdbc.Driver
-       url: jdbc:mysql://192.168.1.24:3306/test1210
-       username: admin
-       password: 123456
+       url: jdbc:mysql://localhost:3306/test1224?useUnicode=true&characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull
+       username: root
+       password:
 
 mybatis:
   type-aliases-package: com.course.model   #(用来做映射)
